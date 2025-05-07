@@ -110,7 +110,6 @@
   color: #ffffff;
 }
 
-
 .staff__cards {
   max-width: 760px;
   margin: 0 auto;
@@ -245,7 +244,6 @@
 .person_name_feynman {
   left: 319px;
   top: -30px;
-
 }
 
 .person_name_burbidge {
@@ -261,7 +259,6 @@
 .person_name_mitchell {
   left: 142px;
   bottom: 82px;
-
 }
 
 .person_name_tarter {
@@ -270,7 +267,7 @@
 }
 
 .person__image {
-   max-width: 100%;
+  max-width: 100%;
 }
 
 .person__image_size_l {
@@ -290,4 +287,122 @@
   font-size: 14px;
   margin: 0;
   font-weight: bold;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+  color: white;
+}
+
+.footer__columns {
+  padding: 60px 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.footer__logo {
+  width: 50xp;
+  height: 80px;
+  margin-bottom: 100px;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px 0;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__column-list-item-bottom {
+  margin-bottom: 16px;
+}
+
+.footer__column-link a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__column-link p {
+  margin: 0;
+}
+
+.footer__social-icon {
+  display: inline;
+}
+
+.footer__copyright {
+  position: relative;
+  bottom: 60px;
+  left: 80px;
+  margin: 0;
 }
