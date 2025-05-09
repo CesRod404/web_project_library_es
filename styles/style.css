@@ -338,10 +338,10 @@
   box-sizing: border-box;
   background-color: #000000;
   color: white;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-  padding: 60px 80px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -357,7 +357,7 @@
 }
 
 .footer__logo {
-  width: 50px;
+  width: 58px;
   height: 80px;
   margin-bottom: 100px;
 }
@@ -394,11 +394,10 @@
 
 .footer__social-icon {
   display: inline;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
-  position: relative;
-  bottom: 60px;
-  left: 80px;
-  margin: 0;
+  margin-top: 100px;
 }
